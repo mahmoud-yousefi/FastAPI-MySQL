@@ -1,0 +1,10 @@
+python -m venv env
+
+.\env\Scripts\Activate
+
+pip install fastapi uvicorn sqlalchemy pymysql
+
+sqlalchemy => orm
+pymysql => connection to the database
+
+uvicorn main:app --reload
